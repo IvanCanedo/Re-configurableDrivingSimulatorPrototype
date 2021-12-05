@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/28/20||18:20:46" using="Simscape Multibody Link Version 6.0" from="SolidWorks 27.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="base_viela" uid="base_viela" version="133">
+<AssemblyFile name="base_viela.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="viela2-1" uid="viela2-1" entityUid="viela2*:*Predeterminado">
+<Transform>
+<Rotation>-1.5338506691522396e-16 -0.86602540378443926 -0.49999999999999872 1 0 -3.0331857110087194e-16 2.6168520767742881e-16 -0.49999999999999867 0.86602540378443948</Rotation>
+<Translation>0.34641016151377568 0 0.19999999999999998</Translation>
+</Transform>
+</Instance>
+<Instance name="viela3-1" uid="viela3-1" entityUid="viela3*:*Predeterminado">
+<Transform>
+<Rotation>-1.7954387976359953e-16 0.86602540378443726 0.50000000000000222 -0.99999999999999989 0 -2.820682085201563e-16 -2.2204460492503131e-16 -0.50000000000000233 0.86602540378443715</Rotation>
+<Translation>-0.34641016151377524 0.070000000000000034 0.2000000000000004</Translation>
+</Transform>
+</Instance>
+<Instance name="viela-1" uid="viela-1" entityUid="viela*:*Predeterminado">
+<Transform>
+<Rotation>0 0 -1 1 0 0 0 -1 0</Rotation>
+<Translation>0 0 -0.40000000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="base-1" uid="base-1" grounded="true" entityUid="base*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0.048284271247461888 0 -0.40000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela-1</Uid>
+</InstancePath>
+<Position>0 0 0.02</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>-0.02 0.0050000000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela-1</Uid>
+</InstancePath>
+<Position>0 0 0.02</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0.32226802589004488 0 0.24181540550352049</Position>
+<Axis>0.49999999999999939 0 -0.86602540378443904</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela2-1</Uid>
+</InstancePath>
+<Position>0 0 0.01999999999999999</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>-0.0099999999999999256 0.0050000000000000001 0.017320508075688645</Position>
+<Axis>0.5 0 -0.86602540378443871</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela2-1</Uid>
+</InstancePath>
+<Position>0 0 0.01999999999999999</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>-0.32226802589004433 0 0.24181540550352093</Position>
+<Axis>-0.50000000000000044 0 -0.8660254037844386</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela3-1</Uid>
+</InstancePath>
+<Position>0.069999999999999979 0 0.01999999999999999</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0.010000000000000231 0.0050000000000000001 0.017320508075689172</Position>
+<Axis>-0.5 0 -0.86602540378443871</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela3-1</Uid>
+</InstancePath>
+<Position>0 0 0.01999999999999999</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="base" uid="base*:*Predeterminado" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.572320919102694</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.02451779611145322 0.049024796903859955 0.024517796111453223 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="viela" uid="viela*:*Predeterminado" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="viela.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13713274122871835</Mass>
+<CenterOfMass>0.03500000000000001 0 0</CenterOfMass>
+<Inertia>3.7615928545521497e-05 0.00012907020321736821 0.00013011740076856481 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="viela_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="viela2" uid="viela2*:*Predeterminado" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="viela2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13713274122871835</Mass>
+<CenterOfMass>0.03500000000000001 0 0</CenterOfMass>
+<Inertia>3.7615928545521483e-05 0.00012907020321736821 0.00013011740076856481 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="viela2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="viela3" uid="viela3*:*Predeterminado" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="viela3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13713274122871835</Mass>
+<CenterOfMass>0.03500000000000001 0 0</CenterOfMass>
+<Inertia>3.7615928545521497e-05 0.00012907020321736821 0.00013011740076856481 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="viela3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

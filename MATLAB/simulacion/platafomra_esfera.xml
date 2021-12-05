@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="01/06/21||13:06:17" using="Simscape Multibody Link Version 6.0" from="SolidWorks 27.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="platafomra_esfera" uid="platafomra_esfera" version="227">
+<AssemblyFile name="platafomra_esfera.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="pin inferior-3" uid="pin inferior-3" entityUid="pin inferior*:*Predeterminado">
+<Transform>
+<Rotation>0.50000000000000011 -8.6355478262035304e-06 -0.86602540374138404 -2.5180534410046639e-16 0.99999999995028488 -9.9714717242623723e-06 0.8660254037844386 4.9857358623492565e-06 0.49999999997514255</Rotation>
+<Translation>-0.40650140621610481 -0.0092406572727760997 0.23469369630483303</Translation>
+</Transform>
+</Instance>
+<Instance name="pilar-3" uid="pilar-3" entityUid="pilar*:*Predeterminado">
+<Transform>
+<Rotation>0.4999999999999945 -0.0018613196637281536 -0.8660234035458364 2.5838489334240045e-14 0.99999769032340569 -0.0021492668177878625 0.86602540378444171 0.0010746334088715384 0.49999884516169762</Rotation>
+<Translation>-0.40647348642115233 -0.024240622627614485 0.23467757680369541</Translation>
+</Transform>
+</Instance>
+<Instance name="pin inferior-2" uid="pin inferior-2" entityUid="pin inferior*:*Predeterminado">
+<Transform>
+<Rotation>0.50000000000000033 -2.5433282626233525e-05 0.86602540341097833 1.3699762658125284e-16 0.99999999956876551 2.9367825141183904e-05 -0.8660254037844386 -1.4683912570472709e-05 0.49999999978438292</Rotation>
+<Translation>0.40688141972973352 -0.0049297639942129405 0.2349130972092186</Translation>
+</Transform>
+</Instance>
+<Instance name="viela-1" uid="viela-1" entityUid="viela*:*Predeterminado">
+<Transform>
+<Rotation>0 2.9309803624446331e-16 -1 -0.13169951019493106 -0.99128968471099066 -2.7766276994426738e-16 -0.99128968471099066 0.13169951019493106 1.3556463910916904e-16</Rotation>
+<Translation>0 0 -0.40000000000000024</Translation>
+</Transform>
+</Instance>
+<Instance name="pilar-1" uid="pilar-1" entityUid="pilar*:*Predeterminado">
+<Transform>
+<Rotation>1 -2.7793250394532246e-16 1.3495555277425059e-16 2.7764311588092028e-16 0.99999771103765778 0.0021396073109349583 -1.355499102834603e-16 -0.0021396073109349583 0.99999771103765778</Rotation>
+<Translation>0 -0.024218931379210083 -0.46935818382010586</Translation>
+</Transform>
+</Instance>
+<Instance name="base-1" uid="base-1" grounded="true" entityUid="base*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="pilar-2" uid="pilar-2" entityUid="pilar*:*Predeterminado">
+<Transform>
+<Rotation>0.50000000000000011 0.00048828048985609081 0.86602526613382558 5.2736271296052739e-16 0.99999984105476281 -0.00056381774451721718 -0.8660254037844386 0.00028190887225906536 0.49999992052738151</Rotation>
+<Translation>0.40687409552240839 -0.019929761610032206 0.23490886857609505</Translation>
+</Transform>
+</Instance>
+<Instance name="viela3-1" uid="viela3-1" entityUid="viela3*:*Predeterminado">
+<Transform>
+<Rotation>-0.85844635289043447 0.11432348494126872 0.499999999999995 -0.13200938961105996 -0.9912484658522881 2.5784929746919261e-14 0.49562423292614222 -0.066004694805507122 0.86602540378444159</Rotation>
+<Translation>-0.34641016151377685 1.0890593982182395e-14 0.19999999999999823</Translation>
+</Transform>
+</Instance>
+<Instance name="viela2-1" uid="viela2-1" entityUid="viela2*:*Predeterminado">
+<Transform>
+<Rotation>0.86387511737082301 0.060990012195003863 -0.49999999999999978 -0.070425199917328374 0.99751706312052835 -5.2735593669694936e-16 0.49875853156026406 0.035212599958664638 0.86602540378443849</Rotation>
+<Translation>0.34641016151377602 0 0.19999999999999993</Translation>
+</Transform>
+</Instance>
+<Instance name="pin inferior-1" uid="pin inferior-1" entityUid="pin inferior*:*Predeterminado">
+<Transform>
+<Rotation>1 -1.0969941107095636e-16 0 1.3496326457634221e-16 0.9999992033525047 -0.0012622576425837565 0 0.0012622576425835542 0.99999920335250458</Rotation>
+<Translation>0 -0.0092189657136452045 -0.46939027792976978</Translation>
+</Transform>
+</Instance>
+<Instance name="plataforma_soporte-2" uid="plataforma_soporte-2" entityUid="plataforma_soporte*:*Predeterminado">
+<Transform>
+<Rotation>0.99998597460466598 -0.0052962750777412462 -8.016064474327157e-06 0.005296275077741182 0.9999813931088537 0.0030270292990307898 -8.0160645157612593e-06 -0.0030270292990306801 0.99999541850418783</Rotation>
+<Translation>-0.00037450680574480154 0.34720178322025186 -0.00021411136735042364</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0.048284271247461888 0 -0.40000000000000002</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela-1</Uid>
+</InstancePath>
+<Position>0 0 0.02</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>-0.02 0.0050000000000000001 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela-1</Uid>
+</InstancePath>
+<Position>0 0 0.02</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>0.32226802589004488 0 0.24181540550352049</Position>
+<Axis>0.49999999999999939 0 -0.86602540378443904</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela2-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>-0.0099999999999999256 0.0050000000000000001 0.017320508075688645</Position>
+<Axis>0.5 0 -0.86602540378443871</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela2-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>-1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>-0.32226802589004433 0 0.24181540550352093</Position>
+<Axis>-0.50000000000000044 0 -0.8660254037844386</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela3-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>-1.1102230246251565e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>base-1</Uid>
+</InstancePath>
+<Position>-0.0099999999999999464 0.0050000000000000001 -0.017320508075688665</Position>
+<Axis>0.50000000000000033 0 0.86602540378443849</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela3-1</Uid>
+</InstancePath>
+<Position>0 0 -0.01999999999999999</Position>
+<Axis>-1.1102230246251565e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela-1</Uid>
+</InstancePath>
+<Position>0.070000000000000007 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pilar-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999995 0.014999999999999999 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela-1</Uid>
+</InstancePath>
+<Position>0 0 -0.02</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pilar-1</Uid>
+</InstancePath>
+<Position>0.020000000000000007 0.069999999999999993 -0.029999999999999971</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela2-1</Uid>
+</InstancePath>
+<Position>0.070000000000000007 0 0.020000000000000018</Position>
+<Axis>1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pilar-2</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 0.014999999999999996 0</Position>
+<Axis>1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela2-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>-1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pilar-2</Uid>
+</InstancePath>
+<Position>-0.020000000000000018 0.069999999999999993 -0.029999999999999971</Position>
+<Axis>1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela3-1</Uid>
+</InstancePath>
+<Position>0.070000000000000007 0 0.020000000000000018</Position>
+<Axis>-1.1102230246251565e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pilar-3</Uid>
+</InstancePath>
+<Position>-0.029999999999999971 0.015000000000000003 0</Position>
+<Axis>1 0 2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>viela3-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>1.1102230246251565e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pilar-3</Uid>
+</InstancePath>
+<Position>0.020000000000000018 0.070000000000000007 -0.029999999999999971</Position>
+<Axis>-1 0 -2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela-1</Uid>
+</InstancePath>
+<Position>0.070000000000000007 0 0.020000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pin inferior-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pilar-1</Uid>
+</InstancePath>
+<Position>0.030000000000000002 0.29999999999999993 0.029999999999999971</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pin inferior-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela2-1</Uid>
+</InstancePath>
+<Position>0.070000000000000007 0 0.020000000000000018</Position>
+<Axis>1.6653345369377348e-16 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pin inferior-2</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pilar-2</Uid>
+</InstancePath>
+<Position>0.029999999999999971 0.29999999999999999 0.029999999999999971</Position>
+<Axis>1 0 1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pin inferior-2</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>viela3-1</Uid>
+</InstancePath>
+<Position>0.070000000000000007 0 0.020000000000000018</Position>
+<Axis>-1.1102230246251565e-16 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>pin inferior-3</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pilar-3</Uid>
+</InstancePath>
+<Position>0.030000000000000054 0.29999999999999999 0.029999999999999971</Position>
+<Axis>1 0 2.7755575615628914e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>pin inferior-3</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica13">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>pilar-3</Uid>
+</InstancePath>
+<Position>0 0.29999999999999999 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>plataforma_soporte-2</Uid>
+</InstancePath>
+<Position>-0.40703193977868496 -0.070000000000002505 0.23500000000000162</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica14">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>pilar-2</Uid>
+</InstancePath>
+<Position>0 0.29999999999999999 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>plataforma_soporte-2</Uid>
+</InstancePath>
+<Position>0.40703193977868807 -0.070000000000002505 0.23499999999999591</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concéntrica15">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>pilar-1</Uid>
+</InstancePath>
+<Position>0 0.29999999999999993 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>plataforma_soporte-2</Uid>
+</InstancePath>
+<Position>0 -0.070000000000000062 -0.47000000000000014</Position>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="base" uid="base*:*Predeterminado" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.572320919102694</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.02451779611145322 0.049024796903859955 0.024517796111453223 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="base_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pilar" uid="pilar*:*Predeterminado" version="178">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pilar.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.68414682818993977</Mass>
+<CenterOfMass>0 0.14253410289827867 0</CenterOfMass>
+<Inertia>0.0028859037251384896 0.00042609244935021859 0.0029100814540766219 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pilar_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="pin inferior" uid="pin inferior*:*Predeterminado" version="107">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="pin inferior.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018849555921538759</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>9.4247779607693834e-07 6.1261056745000956e-06 6.1261056745000956e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="pin inferior_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="plataforma_soporte" uid="plataforma_soporte*:*Predeterminado" version="137">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="plataforma_soporte.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4890066282887648</Mass>
+<CenterOfMass>-8.8544850336351169e-16 0.0029901095016220936 -5.3135247438415542e-16</CenterOfMass>
+<Inertia>0.19114856649866421 0.38100185103749751 0.19114856649866505 0 -7.6086318769414145e-16 0</Inertia>
+</MassProperties>
+<GeometryFile name="plataforma_soporte_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="viela" uid="viela*:*Predeterminado" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="viela.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13713274122871835</Mass>
+<CenterOfMass>0.03500000000000001 0 0</CenterOfMass>
+<Inertia>3.7615928545521497e-05 0.00012907020321736821 0.00013011740076856481 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="viela_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="viela2" uid="viela2*:*Predeterminado" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="viela2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13713274122871835</Mass>
+<CenterOfMass>0.03500000000000001 0 0</CenterOfMass>
+<Inertia>3.7615928545521497e-05 0.00012907020321736821 0.00013011740076856481 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="viela2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="viela3" uid="viela3*:*Predeterminado" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="viela3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13713274122871838</Mass>
+<CenterOfMass>0.03500000000000001 0 0</CenterOfMass>
+<Inertia>3.7615928545521497e-05 0.00012907020321736821 0.00013011740076856481 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="viela3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
